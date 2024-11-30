@@ -1,4 +1,5 @@
 Создать файл скрипта: /root/test-monitoring.sh;
+
 Cделать скрипт исполняемым: chmod +x /root/test-monitoring.sh;
 
 Создать unit-файл systemd: /etc/systemd/system/monitor_test.service;
