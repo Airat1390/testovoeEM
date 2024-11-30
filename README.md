@@ -6,7 +6,7 @@ Cделать скрипт исполняемым: chmod +x /root/test-monitorin
 
 Создать unit-файл таймер: /etc/systemd/system/monitor_test.timer;
 
-Активируйте и запустите таймер:
+Активировать и запустите таймер:
 
 sudo systemctl enable monitor_test.timer;
 
