@@ -1,0 +1,10 @@
+[Unit]
+Description=Monitor Test Process
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/root/test-monitoring.sh
+
+[Install]
+WantedBy=multi-user.target
